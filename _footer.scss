@@ -1,0 +1,33 @@
+@import "./variables";
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 8rem;
+  background-color: $color-dark;
+  padding: 2rem 0rem;
+
+  &::after {
+    content: "";
+    display: inline-block;
+    background-color: $color-dark;
+    position: absolute;
+    height: 7.7rem;
+    width: 100vw;
+    z-index: -1;
+    right: 0;
+    bottom: 100;
+  }
+}
+
+// .bottom-background {
+//   height: 100px;
+//   background-color: blue;
+//   width: 100vw;
+//   position: absolute;
+//   margin-left: auto;
+//   margin-right: auto;
+//   right: 500px;
+// }

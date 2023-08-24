@@ -1,0 +1,16 @@
+@import "./variables";
+
+.nav__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+
+  @media screen and (max-width: $max-width-tablet) {
+    margin-bottom: 6rem;
+  }
+
+  @media screen and (max-width: $max-width-phone) {
+    margin-bottom: 4rem;
+  }
+}

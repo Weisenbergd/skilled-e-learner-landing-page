@@ -1,0 +1,37 @@
+//colors
+$color-dark: #13183f;
+$color-medium: #666ca3;
+$color-grey: #83869a;
+$color-hotpink: #f74780;
+$color-lightpink: #ffa7c3;
+$color-white: #ffffff;
+
+$gradient-light: linear-gradient(#ff6f48, #f02aa6);
+$gradient-light-active: linear-gradient(#ffb7a4, #f996d1);
+
+$gradient-dark: linear-gradient(#4851ff, #f02aa6);
+$gradient-dark-active: linear-gradient(#c1a1ef, #f695d4);
+
+$gradient-white: linear-gradient(rgb(999, 999, 999) 60%, rgba(72, 81, 255, 9%));
+
+$gradient-white-phone: linear-gradient(
+  rgb(999, 999, 999) 30%,
+  rgba(72, 81, 255, 9%)
+);
+
+$font-xl-heading: 3.5rem;
+$font-l-heading: 2.5rem;
+$font-m-heading: 2rem;
+$font-s-heading: 1.5rem;
+
+$font-m-body: 1.125rem;
+$font-s-body: 1rem;
+
+$font-family: "Plus Jakarta Sans", sans-serif;
+
+$font-weight-extrabold: 800;
+$font-weight-bold: 600;
+$font-weight-normal: 500;
+
+$max-width-tablet: 1100px;
+$max-width-phone: 850px;

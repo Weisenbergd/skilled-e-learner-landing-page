@@ -1,0 +1,44 @@
+@import "./variables";
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+
+  & h1 {
+    font-size: $font-xl-heading;
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: $max-width-tablet) {
+      font-size: $font-l-heading;
+      line-height: 51px;
+    }
+  }
+
+  &__subheading {
+    max-width: 440px;
+    font-size: $font-m-body;
+    font-weight: $font-weight-normal;
+    color: $color-grey;
+  }
+
+  &__image {
+    position: absolute;
+    right: -500px;
+    top: -350px;
+    z-index: -1;
+
+    @media screen and (max-width: $max-width-tablet) {
+      right: -300px;
+      top: -180px;
+    }
+
+    @media screen and (max-width: $max-width-phone) {
+      position: initial;
+      display: grid;
+      place-content: center;
+    }
+  }
+}
