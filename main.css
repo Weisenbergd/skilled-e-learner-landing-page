@@ -60,7 +60,7 @@
 }
 
 .cta {
-  margin-top: 14rem;
+  margin-top: 16rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 4rem 2rem;
@@ -134,7 +134,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 8rem;
+  margin-top: 9rem;
   background-color: #13183f;
   padding: 2rem 0rem;
 }
