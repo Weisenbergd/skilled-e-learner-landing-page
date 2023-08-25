@@ -230,6 +230,10 @@ body > div {
   }
 }
 
+a {
+  text-decoration: none;
+}
+
 .button {
   color: white;
   border: none;
