@@ -31,18 +31,18 @@
     &-main {
       background-image: $gradient-light;
       color: $color-white;
-      font-size: $font-m-heading;
+      font-size: $font-s-heading;
       padding: 2rem;
       line-height: 48px;
-      padding: 2rem;
+      padding: 4rem 2rem;
 
       @media screen and (max-width: $max-width-tablet) {
         font-size: $font-s-heading;
-        line-height: 36px;
       }
 
       @media screen and (max-width: $max-width-phone) {
-        padding-top: 2rem;
+        padding-top: 3rem;
+        line-height: 40px;
       }
     }
 
